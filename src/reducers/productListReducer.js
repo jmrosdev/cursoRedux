@@ -50,7 +50,6 @@ export default function productListReducer(state = initialState.productList, act
                 loading: false
             }
         default:
-            console.log("DEFAULT productListReducer");
             return state
     }
 }

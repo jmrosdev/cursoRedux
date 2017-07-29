@@ -28,7 +28,6 @@ export default function activeProductReducer(state = initialState.activeProduct,
                 loading: false
             }
         default:
-            console.log("default activeProductReducer");
             return state
         }
 }

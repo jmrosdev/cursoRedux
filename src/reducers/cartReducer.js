@@ -32,5 +32,9 @@ export default function cartReducer(state = initialState, action){
                 total: state.total - item.price
             }
         }
+        default: {
+            return state
+        }
+
     }
 }
